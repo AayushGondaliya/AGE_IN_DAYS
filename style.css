@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Anton', sans-serif;
+    background: rgb(6, 52, 70);
+    color: goldenrod;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.container h1{
+    position: absolute;
+    top: 15%;
+    letter-spacing: 2px;
+    font-size: 100px;
+    
+}
+
+button{
+    outline: none;
+    border: none;
+    padding: 20px 80px;
+    background: goldenrod;
+    color: rgb(6, 52, 70);
+    font-size: 25px;
+}
+.result{
+    display: grid;
+    place-items: center;
+}
+p{
+    text-align: center;
+    font-size: 30px;
+}
