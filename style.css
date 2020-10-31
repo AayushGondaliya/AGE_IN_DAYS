@@ -20,19 +20,19 @@
 
 .container h1{
     position: absolute;
-    top: 15%;
-    letter-spacing: 2px;
-    font-size: 100px;
+    top: 12%;
+    letter-spacing: 2px;  /* 2px*/
+    font-size:  12vw;  /* 100px*/
     
 }
 
 button{
     outline: none;
     border: none;
-    padding: 20px 80px;
+    padding: 2vw 8vw; /* 20px 80px*/
     background: goldenrod;
     color: rgb(6, 52, 70);
-    font-size: 25px;
+    font-size: 5vw; /* 25px*/
 }
 .result{
     display: grid;
@@ -40,5 +40,6 @@ button{
 }
 p{
     text-align: center;
-    font-size: 30px;
+    margin-top: 20vw;
+    font-size: 5vw; /* 30px*/
 }
